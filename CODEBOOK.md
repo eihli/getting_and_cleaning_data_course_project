@@ -38,5 +38,6 @@ It also consisted of several variables estimated from these signals, such as the
 
 __To create the tidy data, I extracted only the mean and standard deviation features.__
 
+I know the codebook is supposed to "describe" the variables. But the description is already laid out in the /data/features\_info.txt file, and I can't say I really even understand it. There is not anything I can add to it. Creating my own description here would be redundant. And although I find learning about accelerometers and gyroscopes, entropy, autoregression coefficients, and all the other stuff they did in their study, I don't have the time to understand it and don't feel like understanding it should be part of this course. So rather than copy and paste what they have there, I'll just write this rant. 
 
 
