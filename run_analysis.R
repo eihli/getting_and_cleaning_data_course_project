@@ -31,6 +31,7 @@ col_names <- gsub("Mag", "magnitude", col_names)
 col_names <- gsub("\\(\\)", "", col_names)
 col_names <- gsub("^[0-9]+", "", col_names)
 col_names <- tolower(col_names)
+colnames(df) <- col_names
 
 df$activity <- factor(y$V1)
 df$activity <- revalue(df$activity, c("2" = "WALKING_UPSTAIRS", "1" = "WALKING", "3" = "WALKING_DOWNSTAIRS", "4" = "SITTING", "5" = "STANDING", "6" = "LAYING"))
